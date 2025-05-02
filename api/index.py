@@ -5,12 +5,12 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     lyrics = [
-    "Vamos pa' la playa, pa' curarte el alma",
-    "Cierra la pantalla, abre la Medalla",
-    "Todo el mar Caribe, viendo tu cintura",
-    "Tú le coqueteas, tú eres buscabullas y me gusta",
-    "Lento y contento, cara al viento",
-    "Lento y contento, cara al viento"
+    (0, "Vamos pa' la playa, pa' curarte el alma"),
+    (5, "Cierra la pantalla, abre la Medalla"),
+    (10, "Todo el mar Caribe, viendo tu cintura"),
+    (15, "Tú le coqueteas, tú eres buscabullas y me gusta"),
+    (20, "Lento y contento, cara al viento"),
+    (25, "Lento y contento, cara al viento")
 ]
     html_lyrics = ''.join(f'<p class="lyric-line">{line}</p>' for line in lyrics)
 
