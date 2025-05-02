@@ -62,7 +62,7 @@ def index():
     <body>
         <h1>Calma - Pedro Capó & Farruko</h1>
         <audio id="audio" controls autoplay>
-            <source src="/calma.mp3" type="audio/mpeg">
+            <source src="https://files.catbox.moe/75kypj.mp3" type="audio/mpeg">
             Browser tidak mendukung audio.
         </audio>
         <div class="lyrics-container">
